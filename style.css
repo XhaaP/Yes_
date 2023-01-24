@@ -67,6 +67,15 @@ body {
     position: relative;
 }
 
+.ask span {
+    color: red;
+}
+
+.ask p{
+    color: red; 
+    font-weight: bold;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -127,14 +136,14 @@ body {
 
 #sadcat {
     width: 340px;
-    height: 240px;
+    height: 540px;
     padding-left: 150px;
 
 }
 
 #Mad {
     width: 340px;
-    height: 240px;
+    height: 540px;
     position: sticky;
     top: 0;
     right: 150px;
@@ -144,10 +153,15 @@ body {
 
 #sad {
     width: 340px;
-    height: 240px;
+    height: 540px;
     position: sticky;
     top: 0;
     left: 150px;
+}
+
+#crying {
+    position: absolute;
+    position: bottom;
 }
 
 #hang {
@@ -318,4 +332,32 @@ BUTTONS 2 OPACITY
     justify-content: center;
     align-items: center;
     padding-top: 60px;
+}
+
+@media screen and (max-width: 600px){
+    #sadcat {
+        width: 340px;
+        height: 240px;
+        padding-left: 150px;
+    
+    }
+    
+    #Mad {
+        width: 340px;
+        height: 240px;
+        position: sticky;
+        top: 0;
+        right: 150px;
+       
+    
+    }
+    
+    #sad {
+        width: 340px;
+        height: 240px;
+        position: sticky;
+        top: 0;
+        left: 150px;
+    }
+
 }

@@ -145,10 +145,21 @@ body {
     width: 340px;
     height: 540px;
     position: sticky;
-    top: 0;
     right: 150px;
-   
+}
 
+#low {
+    object-position: center ;
+    position: fixed;
+    top: 150px;
+    left: 140;
+}
+
+#yellow {
+    object-position: center;
+    position: fixed;
+    top: 500px;
+    left: 100;
 }
 
 #sad {
@@ -181,6 +192,13 @@ body {
 #sadcat {
     opacity: 0;
 }
+#low {
+    opacity: 0;
+}
+
+#yellow {
+    opacity: 0;
+}
 
 #Mad {
     opacity: 0;
@@ -205,6 +223,7 @@ body {
 .sadboi {
     padding-left: 200px;
 }
+
 
 @keyframes bounce2 {
 
@@ -327,24 +346,18 @@ BUTTONS 2 OPACITY
     opacity: 0;
 }
 
-.fff {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-}
 
 @media screen and (max-width: 600px){
     #sadcat {
-        width: 340px;
-        height: 240px;
+        width: 250px;
+        height: 340px;
         padding-left: 150px;
     
     }
     
     #Mad {
         width: 340px;
-        height: 240px;
+        height: 200px;
         position: sticky;
         top: 0;
         right: 150px;
@@ -360,4 +373,25 @@ BUTTONS 2 OPACITY
         left: 150px;
     }
 
+
+    #yellow {
+        object-position: center;
+        position: fixed;
+        top: 500px;
+        left: 100;
+    }
+
+    #low {
+        object-position: center;
+        top: 150px;
+        right: 40%;
+    }
+
+}
+
+.fff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
 }

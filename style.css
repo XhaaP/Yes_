@@ -127,22 +127,25 @@ body {
 
 #sadcat {
     width: 340px;
-    height: 540px;
-    padding-left: 200px;
+    height: 240px;
+    padding-left: 150px;
 
 }
 
 #Mad {
     width: 340px;
-    height: 540px;
-    padding-right: 200px;
+    height: 240px;
+    position: sticky;
+    top: 0;
+    right: 150px;
+   
 
 }
 
 #sad {
     width: 340px;
-    height: 540px;
-    padding-bottom: 200px;
+    height: 240px;
+    padding-top: 1500px;
 }
 
 #hang {
